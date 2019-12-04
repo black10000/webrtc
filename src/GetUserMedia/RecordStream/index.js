@@ -123,8 +123,7 @@ export default class RecordStream extends React.Component {
             }
         }
 
-        document.querySelector('button#start').addEventListener('click', async () => {
-            //const hasEchoCancellation = document.querySelector('#echoCancellation').checked;
+        document.querySelector('button#start').addEventListener('click', async () => {            
             const constraints = {
                 audio: {
                     echoCancellation: { exact: false }
